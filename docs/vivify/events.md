@@ -90,7 +90,7 @@ Allows setting global shader properties, e.g. Texture, Float, Color, Vector, Key
     "order": string, // (Optional) BeforeMainEffect, AfterMainEffect. Whether to activate before the main bloom effect or after. Defaults fo AfterMainEffect
     "source": string, // (Optional) Which texture to pass to the shader as "_MainTex". "_Main" is reserved for the camera. Default = "_Main"
     "destination": string, // (Optional) Which render texture to save to. Can be an array. "_Main" is reserved for the camera. Default = "_Main"
-    "duration": float, // (Optional) How long will this material be applied. Defaults to 0
+    "duration": float, // How long will this material be applied. Defaults to 0.
     "easing": string, // (Optional) See SetMaterialProperty.
     "properties": ? // (Optional) See SetMaterialProperty.
   }
